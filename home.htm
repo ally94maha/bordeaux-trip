@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title>Bordeaux</title> 
+	
+		<meta encoding="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	
+		
+		<link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+		
+		<style> 
+		p, li {font-family: 'Montserrat', sans-serif; color:#1a1a1a }
+		
+		h1 {font-family: 'Playfair Display', serif; color:black; font-size:70px; padding-bottom:25px; padding-top:25px; text-align:center; margin-top:60px
+	}
+		h2, h3, h4, h5, h6 {font-family: 'Chivo', sans-serif; color:#800020; padding-bottom:10px;padding-top:10px;}
+		body { background-color:white; background-size: cover;}
+		.sezione {background-color:#F4F3EE; margin-left:-5px;margin-right:-5px; padding:40px;}
+		.testo-foto {color:#1a1a1a; background-color:white}
+		
+		
+		
+				/* not active */
+		.nav-pills .pill-1 .nav-link:not(.active) {
+			background-color: white;color: black;
+		}
+
+		.nav-pills .pill-2 .nav-link:not(.active) {
+			background-color: white; color: black;
+		}
+
+		.nav-pills .pill-3 .nav-link:not(.active) {
+			background-color: white; color: black;
+		}
+		
+		.nav-pills .pill-4 .nav-link:not(.active) {
+			background-color: white; color: black;
+		}
+
+
+		/* active (faded) */
+		.nav-pills .pill-1 .nav-link {
+			background-color: #2c365e; color: white;
+		}
+
+		.nav-pills .pill-2 .nav-link {
+			background-color: #2c365e; color: white;
+		}
+
+		.nav-pills .pill-3 .nav-link {
+			background-color: #2c365e; color: white;
+		}
+
+		.nav-pills .pill-4 .nav-link {
+			background-color: #2c365e; color: white;
+		}
+		
+		.carousel-item.active,
+		.carousel-item-next,
+		.carousel-item-prev {
+		  display: block;
+		}
+		.carousel-inner img {
+  margin: auto;
+}
+		</style>
+		
+		
+	</head>
+	
+	<body>
+		<div class="container" style="text-align:center"> 
+		<h1>BORDEAUX</h1>
+		<hr style="margin-top:-20px">
+			<div class="container" >
+			 <br>
+			 <!-- Nav pills -->
+			 <ul class="nav nav-pills justify-content-center" role="tablist">
+				<li class="nav-item pill-1">
+				 <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
+				</li>
+				<li class="nav-item pill-2">
+				 <a class="nav-link" data-toggle="pill" href="#menu1">Monuments</a>
+				</li>
+				<li class="nav-item pill-3">
+				 <a class="nav-link" data-toggle="pill" href="#menu2">Activities</a>
+				</li>
+				<li class="nav-item pill-4">
+				 <a class="nav-link" data-toggle="pill" href="#menu3">Food</a>
+				</li>
+			 </ul>
+ 
+ <hr style="margin-top:-20px">
+ <hr style="margin-top:60px">
+ 
+			 <!-- Tab panes -->
+			 <div class="tab-content">
+				<div id="home" class="container tab-pane show active"  role="tabpanel"><br>
+				 <h3>HOME</h3>
+				 <p>Bordeaux is a port city on the Garonne River in southwestern France. 
+				 Celebrating wine, gastronomy, arts and culture, it's the ultimate city for those who enjoy the good life. 
+				 Bordeaux is typical and modern at the same time, with its broad pedestrian boulevards, gorgeous squares and a mix of modern buildings and historical architecture. It represents the very essence of the French spirit.
+				 Since 2007, almost all of Bordeaux city centre has been listed as a Unesco World Heritage site. </p>
+				</div>
+				<div id="menu1" class="tab-pane fade"><br>
+				 <h3>What to see</h3>
+				 <p>
+					<div id="carousel1" class="carousel slide" data-ride="carousel">
+						  <ol class="carousel-indicators">
+							<li data-target="#carousel1" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel1" data-slide-to="1"></li>
+							<li data-target="#carousel1" data-slide-to="2"></li>
+							<li data-target="#carousel1" data-slide-to="3"></li>
+							<li data-target="#carousel1" data-slide-to="4"></li>
+							<li data-target="#carousel1" data-slide-to="5"></li>
+							<li data-target="#carousel1" data-slide-to="6"></li>
+							<li data-target="#carousel1" data-slide-to="7"></li>
+							<li data-target="#carousel1" data-slide-to="8"></li>
+						  </ol>
+						  <div class="carousel-inner">
+							<div class="carousel-item active">
+							  <div class="img"><img class="d-block img-fluid" src="img/Porte Cailhau.jpg" alt="First slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Porte Cailhau</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/Place_de_la_bourse_Bordeaux.jpg" alt="Second slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Place de la bourse</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/plaza-pey-berland.jpg" alt="Third slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Tour Pey Berland</p>
+							   </div>
+							</div>							
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/Basilique_St_Michel.jpg" alt="Fourth slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Flèche Saint-Michel</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/Pont de pierre.jpg" alt="Fifth slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Pont de pierre</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/Cathédrale_St_André_Bordeaux.jpg" alt="Sixth slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Cathédrale St. André</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/ESPLANADE DES QUINCONCES.jpg" alt="Seventh slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Esplanade des Quinconces</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/Grand_Théâtre.jpg" alt="Eighth slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Le Grand Théâtre</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/palais-gallien-bordeaux.jpg" alt="Nineth slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Palais Gallien</p>
+							   </div>
+							</div>
+						  </div>
+						  
+						  
+						  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						  </a>
+						  
+						  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						  </a>
+						  
+						</div>
+					
+				 </p>
+				</div>
+				
+				
+				
+				<div id="menu2" class="tab-pane fade"><br>
+				 <h3>What to do</h3>
+				 <p>
+						
+						<div id="carousel2" class="carousel slide" data-ride="carousel">
+						  <ol class="carousel-indicators">
+							<li data-target="#carousel2" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel2" data-slide-to="1"></li>
+							<li data-target="#carousel2" data-slide-to="2"></li>
+							<li data-target="#carousel2" data-slide-to="3"></li>
+							<li data-target="#carousel2" data-slide-to="4"></li>
+							<li data-target="#carousel2" data-slide-to="5"></li>
+							<li data-target="#carousel2" data-slide-to="6"></li>
+						  </ol>
+						  <div class="carousel-inner">
+								<div class="carousel-item active">
+								  <div class="img"><img class="d-block img-fluid" src="img/mirror.jpg" alt="First slide"></div>
+								   <div class="carousel-caption d-none d-md-block">
+								   <p class="testo-foto">Have fun with the Miroir d'eau</p>
+								   </div>
+								</div>
+								<div class="carousel-item">
+								  <div class="img"><img class="d-block img-fluid" src="img/Marche-des-Capucins-Bordeaux.jpg" alt="Second slide"></div>
+								   <div class="carousel-caption d-none d-md-block">
+								   <p class="testo-foto">Visit the Marché des Capucins</p>
+								   </div>
+								</div>
+								<div class="carousel-item">
+								  <div class="img"><img class="d-block img-fluid" src="img/darwin.jpg" alt="Third slide"></div>
+								   <div class="carousel-caption d-none d-md-block">
+								   <p class="testo-foto">Be alternative at Darwin</p>
+								   </div>
+								</div>							
+								<div class="carousel-item">
+								  <div class="img"><img class="d-block img-fluid" src="img/museo-vino.jpg" alt="Fourth slide"></div>
+								   <div class="carousel-caption d-none d-md-block">
+								   <p class="testo-foto">Visit la Cité du Vin</p>
+								   </div>
+								</div>
+								<div class="carousel-item">
+								  <div class="img"><img class="d-block img-fluid" src="img/distillery.jpg" alt="Fifth slide"></div>
+								   <div class="carousel-caption d-none d-md-block">
+								   <p class="testo-foto">Tour Bordeaux’s only whisky distillery</p>
+								   </div>
+								</div>
+								<div class="carousel-item">
+								  <div class="img"><img class="d-block img-fluid" src="img/jetski.jpg" alt="Sixth slide"></div>
+								   <div class="carousel-caption d-none d-md-block">
+								   <p class="testo-foto">Rent a jet ski on the Garonne</p>
+								   </div>
+								</div>
+								<div class="carousel-item">
+								  <div class="img"><img class="d-block img-fluid" src="img/virtual.jpg" alt="Seventh slide"></div>
+								   <div class="carousel-caption d-none d-md-block">
+								   <p class="testo-foto">Experience virtual reality</p>
+								   </div>
+								</div>
+							</div>
+						  
+						  
+						  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						  </a>
+						  
+						  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						  </a>
+						  
+						</div>
+						
+				 </p>
+				</div>
+				
+				
+				
+				<div id="menu3" class="tab-pane fade"><br>
+				 <h3>What to eat</h3>
+				 
+					<p>
+						
+						<div id="carousel3" class="carousel slide" data-ride="carousel">
+						  <ol class="carousel-indicators">
+							<li data-target="#carousel3" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel3" data-slide-to="1"></li>
+							<li data-target="#carousel3" data-slide-to="2"></li>
+							<li data-target="#carousel3" data-slide-to="3"></li>
+							<li data-target="#carousel3" data-slide-to="4"></li>
+							<li data-target="#carousel3" data-slide-to="5"></li>
+							<li data-target="#carousel3" data-slide-to="6"></li>
+							<li data-target="#carousel3" data-slide-to="7"></li>
+							<li data-target="#carousel3" data-slide-to="8"></li>
+						  </ol>
+						  <div class="carousel-inner">
+							<div class="carousel-item active">
+							  <div class="img"><img class="d-block img-fluid" src="img/les huitres.jpg" alt="First slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Les huitres - Oyster</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/entrecote-bordelaise.jpg" alt="Second slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Entrecôte à la bordelaise - Rib steak</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/Le grenier Médocain.jpg" alt="Third slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Le grenier Médocain - a Médoc charcuterie</p>
+							   </div>
+							</div>							
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/Les cannelés.jpg" alt="Fourth slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Les cannelés</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/Macarons de Saint-Émilion.jpg" alt="Fifth slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Macarons de Saint-Émilion</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/Les Guinettes bordelaises.jpg" alt="Sixth slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Les Guinettes bordelaises</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/cavial.jpg" alt="Seventh slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">Le caviar bordelais</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/lamproiebrodealise.jpg" alt="Eighth slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">La lamproie à la bordelaise</p>
+							   </div>
+							</div>
+							<div class="carousel-item">
+							  <div class="img"><img class="d-block img-fluid" src="img/Pibales.jpg" alt="Nineth slide"></div>
+							   <div class="carousel-caption d-none d-md-block">
+							   <p class="testo-foto">La pibale</p>
+							   </div>
+							</div>
+						  </div>
+						  
+						  
+						  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						  </a>
+						  
+						  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						  </a>
+						  
+						</div>
+						
+					</p>
+				</div>
+				
+			 </div>
+			 
+			</div>
+		</div>
+	</body>
+	
+</html>
